@@ -2,17 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
-
 @font-face {
     font-family: 'Android';
-    src: url(/fontes/idroid.otf) format('opentype');
+    src: url(../fontes/idroid.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(/fontes/worksans.ttf.ttf) format('truetype');
+    src: url(../fontes/worksans.ttf) format('truetype');
 }
 
 *{
@@ -33,7 +30,6 @@
     --fonte-destaque: 'Bebas neue', 'cursive';
     --fonte-android: 'android', 'cursive';
     --font-aside: 'Work Sans', sans-serif;
-    --fonte-teste: 'Kanit', sans-serif;
 
 
 }
@@ -74,7 +70,7 @@ header > p{
     padding-left: 10px;
     color: white;
     margin: auto;
-    padding-bottom: 50px;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);   
 }
 
@@ -88,7 +84,6 @@ nav > a{
     color: var(--cor06);
     padding: 10px;
     border-radius: 5px;
-    font-size: 1.3em;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
@@ -114,16 +109,16 @@ main{
 
 main  h1{
     color: var(--cor05);
-    font-family: var(--fonte-teste);
+    font-family: var(--fonte-android);
     font-weight: normal;
-    font-size: 2.4em;
+    font-size: 1.8em;
 }
 
 
 main h2 {
-    font-family: var(--fonte-teste);
+    font-family: var(--fonte-android);
     color: var(--cor04);
-    font-size: 2em;
+    font-size: 1.6em;
     background-image: linear-gradient(to right, var(--cor01), var(--cor00), transparent);
     text-indent: 8px;
     font-weight: normal;
@@ -186,6 +181,7 @@ aside{
     padding: 10px;
     border-radius: 13px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.342);
+    font-family: var(--font-aside);
 }
 
 aside h3{
