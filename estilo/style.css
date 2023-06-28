@@ -88,6 +88,7 @@ nav > a{
     color: var(--cor06);
     padding: 10px;
     border-radius: 5px;
+    font-size: 1.3em;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
