@@ -86,6 +86,7 @@ nav > a{
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2em;
     transition-duration: .5s;
 }
 
@@ -181,7 +182,7 @@ aside{
     padding: 10px;
     border-radius: 13px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.342);
-    font-family: var(--font-aside);
+    font-family: var(--fonte-padrão);
 }
 
 aside h3{
